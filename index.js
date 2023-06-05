@@ -9,6 +9,7 @@ app.use(bodyparser.json());
 
 const allRoutes = require("./routes/index");
 allRoutes(app);
+
 app.listen(port, () => {
   console.log("Server RUNNING IN PORT: " + port);
 });
